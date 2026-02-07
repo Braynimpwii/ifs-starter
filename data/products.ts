@@ -1,0 +1,48 @@
+import type { Product, Finish } from '../types/product'
+
+export const products: Product[] = [
+  {
+    id: 'ph-001',
+    name: 'Rainfall Shower Head',
+    price: 129,
+    image: 'https://images.unsplash.com/photo-1598300054485-4b4fb12f6f63?auto=format&fit=crop&w=800&q=80',
+    category: 'Shower Heads',
+    finish: 'chrome' as Finish,
+    rating: 4.8,
+    reviews: 120,
+    inStock: true,
+  },
+  {
+    id: 'ph-002',
+    name: 'Handheld Shower Head',
+    price: 79,
+    image: 'https://images.unsplash.com/photo-1621901087866-9b7c1c41f2b3?auto=format&fit=crop&w=800&q=80',
+    category: 'Shower Heads',
+    finish: 'matte-black' as Finish,
+    rating: 4.6,
+    reviews: 95,
+    inStock: true,
+  },
+  {
+    id: 'ph-003',
+    name: 'High-Pressure Shower Head',
+    price: 159,
+    image: 'https://images.unsplash.com/photo-1603929405150-6f8b6a1a4a3f?auto=format&fit=crop&w=800&q=80',
+    category: 'Shower Heads',
+    finish: 'brushed-gold' as Finish,
+    rating: 4.9,
+    reviews: 145,
+    inStock: true,
+  },
+  {
+    id: 'ph-004',
+    name: 'Water-Saving Shower Head',
+    price: 59,
+    image: 'https://via.placeholder.com/800x600.png?text=Shower+Head',
+    category: 'Shower Heads',
+    finish: 'gunmetal' as Finish,
+    rating: 4.5,
+    reviews: 78,
+    inStock: true,
+  },
+]

@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Theme tokens */
+  --color-primary: #1e40af; /* blue-800 */
+  --color-accent: #f97316;  /* orange-500 */
+  --radius: 0.5rem;
+  --bg: #ffffff;
+  --muted: #6b7280;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+  background-color: var(--bg);
+}
+
+.container {
+  max-width: theme('spacing.container');
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Simple utility for cards */
+.card {
+  @apply bg-white rounded-lg shadow-sm p-4;
+}
