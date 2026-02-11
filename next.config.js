@@ -24,11 +24,6 @@ const nextConfig = {
       'lucide-react',
     ],
   }
-  ,
-  turbopack: {
-    // Ensure Turbopack resolves project root correctly when multiple lockfiles exist
-    root: '.'
-  }
 };
 
 export default nextConfig;
